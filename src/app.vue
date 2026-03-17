@@ -13,6 +13,140 @@
 import { shortId } from '@/utils/short-id'
 
 const editorRef = $ref(null)
+  setTimeout(() => {
+  editorRef.setContent({
+    "type": "doc",
+    "content": [
+        {
+            "type": "heading",
+            "attrs": {
+                "wordWrap": "normal",
+                "indent": null,
+                "textAlign": null,
+                "lineHeight": 1.75,
+                "id": "pe20g7cdsc",
+                "data-toc-id": "pe20g7cdsc",
+                "margin": {
+                    "top": "50"
+                },
+                "level": 2
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "№. "
+                },
+                {
+                    "type": "text",
+                    "marks": [
+                        {
+                            "type": "bold"
+                        }
+                    ],
+                    "text": "Umo Editor"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": {
+                "wordWrap": "normal",
+                "indent": null,
+                "textAlign": null,
+                "lineHeight": 1.75,
+                "id": "g6a64sci85",
+                "data-toc-id": "g6a64sci85",
+                "margin": {
+                    "top": "25"
+                },
+                "level": 3
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "marks": [
+                        {
+                            "type": "bold"
+                        }
+                    ],
+                    "text": "♯ 基本介绍"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "attrs": {
+                "wordWrap": "normal",
+                "indent": null,
+                "textAlign": "justify",
+                "lineHeight": 1.75,
+                "margin": null,
+                "contentEditable": false
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Umo Editor 是一个基于 Vue3 和 Tiptap3 的本土化开源文档编辑器，提供类似于 Microsoft Word 的在线编辑功能和浏览体验，专为国人用户设计。它提供了强大的文档编辑能力和 AI 创作功能，支持分页模式和普通 Web 模式、Markdown 语法、富文本编辑、多种格式的节点插入、页面样式设置、文档导出与打印等功能。"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "attrs": {
+                "wordWrap": "normal",
+                "indent": null,
+                "textAlign": "justify",
+                "lineHeight": 1.75,
+                "margin": null,
+                "contentEditable": null
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "此外，Umo Editor 还支持自定义扩展、多语言设置和暗色主题。同时我们提供了单独的文本预览组件 "
+                },
+                {
+                    "type": "text",
+                    "marks": [
+                        {
+                            "type": "link",
+                            "attrs": {
+                                "href": "https://github.com/umodoc/viewer",
+                                "target": "_blank",
+                                "rel": "noopener noreferrer nofollow",
+                                "class": null,
+                                "title": null
+                            }
+                        }
+                    ],
+                    "text": "Umo Viewer"
+                },
+                {
+                    "type": "text",
+                    "text": "，用户可以在项目中使用该组件来预览文档。"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "attrs": {
+                "wordWrap": "normal",
+                "indent": null,
+                "textAlign": "justify",
+                "lineHeight": 1.75,
+                "margin": null,
+                "contentEditable": null
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Umo Editor 最大的特点是代码完全开源且自主可控，支持私有部署，您可以内网环境中使用，而无需担心数据安全问题。同时 Umo Editor 基于 Vue3 和 Tiptap3，两者都有丰富的生态系统和社区支持，在遇到问题时可以迅速得到解决。"
+                }
+            ]
+        }
+    ]
+})
+}, 1000)
 const templates = [
   {
     title: '工作任务',
